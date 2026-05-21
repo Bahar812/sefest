@@ -63,8 +63,34 @@
                         </div>
                     </div>
 
-                    <div class="bela-live-hero-visual" aria-label="Ilustrasi pengguna membaca dokumen hukum">
-                        <img src="{{ asset('assets/images/hero-bela.png') }}" alt="Ilustrasi wanita membaca dokumen hukum" class="bela-live-hero-photo">
+                    <div class="bela-live-hero-visual bela-product-stack" aria-label="Mockup dashboard kerja advokat BELA">
+                        <article class="bela-product-window bela-product-window-main">
+                            <div class="bela-product-window-top">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="bela-product-toolbar">
+                                <strong>Advocate workspace</strong>
+                                <em>SDG 8</em>
+                            </div>
+                            <div class="bela-product-metrics">
+                                <div><span>Open intake</span><strong>42</strong></div>
+                                <div><span>Docs review</span><strong>18</strong></div>
+                                <div><span>Matched</span><strong>31</strong></div>
+                            </div>
+                            <div class="bela-product-table">
+                                <div><span>PKWT clause review</span><b>High</b><i></i></div>
+                                <div><span>Invoice demand letter</span><b>Ready</b><i></i></div>
+                                <div><span>Vendor agreement</span><b>Draft</b><i></i></div>
+                            </div>
+                        </article>
+                        <article class="bela-product-window bela-product-window-dark">
+                            <div class="bela-product-window-top">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <code>match.intake("ketenagakerjaan")</code>
+                            <code>risk.flag("pasal 4", "pasal 7")</code>
+                            <code>route.to("HaloHukum")</code>
+                        </article>
                         <div class="bela-live-trust bela-live-trust-floating">
                             <article class="trust-a"><strong>Intake</strong><span>kasus lebih rapi</span></article>
                             <article class="trust-b"><strong>Review</strong><span>dokumen lebih cepat</span></article>
@@ -84,7 +110,22 @@
                 <section class="bela-live-section bela-live-section-soft" id="cara-kerja">
                     <div class="bela-live-help-layout">
                         <div class="bela-live-help-visual">
-                            <img src="{{ asset('assets/images/cara-kerja.png') }}" alt="Ilustrasi BELA membantu pengguna memahami masalah hukum" class="bela-live-help-photo">
+                            <article class="bela-product-window bela-product-intake-card" aria-label="Mockup ringkasan intake klien">
+                                <div class="bela-product-window-top">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="bela-product-toolbar">
+                                    <strong>Client intake brief</strong>
+                                    <em>ready</em>
+                                </div>
+                                <div class="bela-brief-block">
+                                    <span>Kronologi</span>
+                                    <p>Klien menerima surat somasi, tenggat 7 hari, dokumen pendukung lengkap.</p>
+                                </div>
+                                <div class="bela-brief-list">
+                                    <i></i><i></i><i></i><i></i>
+                                </div>
+                            </article>
                         </div>
                         <div class="bela-live-help-copy">
                             <p class="bela-live-kicker">Cara Kerja</p>
@@ -107,35 +148,39 @@
                     </div>
                     <div class="bela-live-feature-grid">
                         <article class="bela-live-feature-card">
-                            <div class="feature-icon">🔍</div>
+                            <div class="feature-icon">01</div>
                             <h3>Scan Legal Document</h3>
                             <p>Ringkas berkas klien sebelum review profesional.</p>
-                            <div class="mini-ui mini-ui-photo scan">
-                                <img src="{{ asset('assets/images/scan-legal-document.png') }}" alt="Ilustrasi scan dokumen legal" class="bela-live-feature-photo">
+                            <div class="mini-ui bela-mini-product scan" aria-hidden="true">
+                                <span></span><span></span><span></span>
+                                <strong></strong>
                             </div>
                         </article>
                         <article class="bela-live-feature-card">
-                            <div class="feature-icon">📚</div>
+                            <div class="feature-icon">02</div>
                             <h3>Tau Hukum</h3>
                             <p>Edukasi klien agar konsultasi lebih fokus.</p>
-                            <div class="mini-ui mini-ui-photo law">
-                                <img src="{{ asset('assets/images/tau-hukum.png') }}" alt="Ilustrasi belajar hukum dengan laptop" class="bela-live-feature-photo bela-live-feature-photo-law">
+                            <div class="mini-ui bela-mini-product law" aria-hidden="true">
+                                <span></span><span></span><span></span>
+                                <strong></strong>
                             </div>
                         </article>
                         <article class="bela-live-feature-card">
-                            <div class="feature-icon">📢</div>
+                            <div class="feature-icon">03</div>
                             <h3>Justice Viral</h3>
                             <p>Pantau isu publik yang butuh perhatian hukum.</p>
-                            <div class="mini-ui mini-ui-photo feed">
-                                <img src="{{ asset('assets/images/justice-viral.png') }}" alt="Ilustrasi kampanye justice viral dengan megafon" class="bela-live-feature-photo">
+                            <div class="mini-ui bela-mini-product feed" aria-hidden="true">
+                                <span></span><span></span><span></span>
+                                <strong></strong>
                             </div>
                         </article>
                         <article class="bela-live-feature-card">
-                            <div class="feature-icon">💬</div>
+                            <div class="feature-icon">04</div>
                             <h3>HaloHukum</h3>
                             <p>Kelola konsultasi dan profil advokat.</p>
-                            <div class="mini-ui mini-ui-photo chat">
-                                <img src="{{ asset('assets/images/halohukum.png') }}" alt="Ilustrasi diskusi hukum bersama komunitas" class="bela-live-feature-photo">
+                            <div class="mini-ui bela-mini-product chat" aria-hidden="true">
+                                <span></span><span></span><span></span>
+                                <strong></strong>
                             </div>
                         </article>
                     </div>
@@ -149,19 +194,40 @@
                     <div class="bela-live-showcase">
                         <article class="row">
                             <div class="mock large doc">
-                                <img src="{{ asset('assets/images/scan-result-ilustrasi.png') }}" alt="Contoh hasil scan dokumen langsung terbaca" class="bela-live-showcase-img">
+                                <article class="bela-product-window">
+                                    <div class="bela-product-toolbar"><strong>Risk review</strong><em>3 flags</em></div>
+                                    <div class="bela-product-table">
+                                        <div><span>Klausul denda sepihak</span><b>High</b><i></i></div>
+                                        <div><span>Batas revisi tidak rinci</span><b>Review</b><i></i></div>
+                                        <div><span>Jadwal pembayaran</span><b>OK</b><i></i></div>
+                                    </div>
+                                </article>
                             </div>
                             <div class="copy"><h3>Hasil scan siap direview advokat</h3><p>Highlight risiko, pasal penting, dan pertanyaan klarifikasi muncul sebelum sesi konsultasi.</p></div>
                         </article>
                         <article class="row reverse">
                             <div class="mock large edu">
-                                <img src="{{ asset('assets/images/belajar-hukum-situasi.png') }}" alt="Contoh modul belajar hukum berbasis situasi" class="bela-live-showcase-img">
+                                <article class="bela-product-window">
+                                    <div class="bela-product-toolbar"><strong>Client education</strong><em>module</em></div>
+                                    <div class="bela-brief-block">
+                                        <span>Before consultation</span>
+                                        <p>Klien memahami hak dasar, dokumen yang perlu dibawa, dan batas konsultasi.</p>
+                                    </div>
+                                    <div class="bela-brief-list"><i></i><i></i><i></i><i></i></div>
+                                </article>
                             </div>
                             <div class="copy"><h3>Edukasi klien berbasis situasi</h3><p>Konten modular membantu klien memahami konteks dasar sebelum bertemu advokat.</p></div>
                         </article>
                         <article class="row">
                             <div class="mock large forum">
-                                <img src="{{ asset('assets/images/forum-diskusi-terarah.png') }}" alt="Contoh forum diskusi komunitas yang terarah" class="bela-live-showcase-img">
+                                <article class="bela-product-window">
+                                    <div class="bela-product-toolbar"><strong>Consultation queue</strong><em>live</em></div>
+                                    <div class="bela-product-table">
+                                        <div><span>Kontrak kerja</span><b>Open</b><i></i></div>
+                                        <div><span>Invoice unpaid</span><b>Match</b><i></i></div>
+                                        <div><span>Perizinan UMKM</span><b>New</b><i></i></div>
+                                    </div>
+                                </article>
                             </div>
                             <div class="copy"><h3>Forum diskusi yang bisa ditindaklanjuti</h3><p>Pertanyaan, balasan, dan insight komunitas dirangkum untuk menemukan kebutuhan bantuan hukum.</p></div>
                         </article>
@@ -170,31 +236,14 @@
 
                 <section class="bela-live-section bela-live-section-plain" id="viral">
                     <div class="bela-live-viral-layout">
-                        <div class="bela-live-viral-marquee" aria-label="Galeri isu hukum yang sedang ramai dibahas">
-                            <div class="bela-live-viral-marquee-grid">
-                                <div class="bela-live-viral-marquee-col">
-                                    <div class="bela-live-viral-track down">
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita1.jpg') }}" alt="Berita viral 1"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita2.jpg') }}" alt="Berita viral 2"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita3.jpg') }}" alt="Berita viral 3"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita4.jpeg') }}" alt="Berita viral 4"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita1.jpg') }}" alt="" aria-hidden="true"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita2.jpg') }}" alt="" aria-hidden="true"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita3.jpg') }}" alt="" aria-hidden="true"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita4.jpeg') }}" alt="" aria-hidden="true"></figure>
-                                    </div>
-                                </div>
-                                <div class="bela-live-viral-marquee-col">
-                                    <div class="bela-live-viral-track up">
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita5.jpg') }}" alt="Berita viral 5"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita6.jpg') }}" alt="Berita viral 6"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita7.jpg') }}" alt="Berita viral 7"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita8.jpg') }}" alt="Berita viral 8"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita5.jpg') }}" alt="" aria-hidden="true"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita6.jpg') }}" alt="" aria-hidden="true"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita7.jpg') }}" alt="" aria-hidden="true"></figure>
-                                        <figure class="bela-live-viral-media"><img src="{{ asset('assets/images/berita8.jpg') }}" alt="" aria-hidden="true"></figure>
-                                    </div>
+                        <div class="bela-live-viral-marquee bela-issue-board" aria-label="Board isu hukum yang sedang ramai dibahas">
+                            <div class="bela-product-window">
+                                <div class="bela-product-toolbar"><strong>Issue monitor</strong><em>public signal</em></div>
+                                <div class="bela-product-table">
+                                    <div><span>PHK mendadak setelah kontrak habis</span><b>Work</b><i></i></div>
+                                    <div><span>Invoice UMKM belum dibayar vendor</span><b>Biz</b><i></i></div>
+                                    <div><span>Somasi atas konten media sosial</span><b>Risk</b><i></i></div>
+                                    <div><span>Perjanjian kemitraan platform</span><b>New</b><i></i></div>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +275,7 @@
                 </section>
 
                 <section class="bela-live-cta" id="cta">
-                    <div class="icon">⚖</div>
+                    <div class="icon" aria-hidden="true"></div>
                     <h2>Bangun layanan hukum yang lebih produktif dan mudah diakses.</h2>
                     <p>BELA mendukung SDG 8 dengan membantu advokat mengurangi beban administratif, memperluas akses layanan, dan meningkatkan kualitas kerja profesional hukum.</p>
                     <a href="{{ $routeLang('auth.landing') }}" class="bela-live-btn bela-live-btn-primary glow">Mulai Workspace</a>
